@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Projeto Web</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+  </head>
+  <body>
+  <div id="site">
+  <img id="logo"src="imgs/logo.png" alt="imagemlogo">
+      
+	  <div id="menu"> 
+        <ul>
+         		
+          <li><a href="index.html">Home</a></li>
+		  <li><a href="index.html">Minha conta</a>
+		        
+				<ul>
+				    <li><a href="#">Login</a></li>
+					<li><a href="#">Cadastro</a></li>
+				</ul>
+		  </li>
+		  <li><a href="index.html">Carrinho</a></li>
+		  <li><a href="index.html">Seção administrador</a>
+		  
+                <ul>
+				    <li><a href="#">Cadastro de Produto</a></li>
+					<li><a href="#">Cadastro de categoria</a></li>
+                </ul>				
+		  </li>
+		  
+        </ul>
+      </div>
+    
+      <div id="busca">
+      
+        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+        <button id="btnBusca">Busca</button>
+      </div>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+      .mySlides {display:none;}
+    </style>
+    
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <style>
+        .mySlides {display:none;}
+      </style>
+      
+<br>
+<br>
+<br>        
+       
+        <div class="w3-content w3-display-container" style="margin-bottom: 6%">
+          <img class="mySlides" src="imgs/propagandas2.png" style="width:100%">
+          <img class="mySlides" src="imgs/propagandas3.png" style="width:100%">
+          <img class="mySlides" src="imgs/propagandas4.png" style="width:100%">
+
+          <button  class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+        
+        <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+          }
+        </script>
+        
+      <div id="produtos">
+        <figure class="imglivro">
+          <a href="deslivro1/index.html"><img class="livros" id="tamanho"src="imgs/livro1.jpg" alt="imagem"></a>
+           
+           <a href="deslivro1/index.html"><p><strong>R$25,90</strong></p></a>
+            <a href="deslivro1/index.html"><p>Para todos os garotos que já amei</p></a>
+           <a href="deslivro1/index.html"><button class="btn"><strong>Comprar</strong></button></a>
+        </figure>
+
+
+        <figure class="imglivro">
+           <a href="deslivro2/index.html"><img class="livros" id="tamanho" src="imgs/livro2.png" alt="imagem"></a>
+          
+          
+           <a href="deslivro2/index.html"><p><strong>R$38,90</strong></p></a>
+           <a href="deslivro2/index.html"><p>Dúvida Cruel</p></a>
+           <a href="deslivro2/index.html"><button class="btn"><strong>Comprar</strong></button></a>
+        </figure>
+
+        <figure class="imglivro">        
+           <a href="deslivro3/index.html"><img class="livros" id="tamanho" src="imgs/livro3.jpg" alt="imagem"></a>
+          
+          
+          <a href="deslivro3/index.html"><p><strong>R$24,90</strong></p></a>
+          <a href="deslivro3/index.html"><p>Como eu era antes de você</p></a>
+          <a href="deslivro3/index.html"><button class="btn"><strong>Comprar</strong></button></a>
+        </figure>
+
+        <figure class="imglivro">
+          <a href="deslivro4/index.html"><img class="livros" id="tamanho" src="imgs/livro4.jpg" alt="imagem"><a/>
+          
+         
+          <a href="deslivro4/index.html"><p><strong>R$29,90</strong></p></a>
+         <a href="deslivro4/index.html"><p>A menina que roubava livros</p></a>
+          <a href="deslivro4/index.html"><button class="btn"><strong>Comprar</strong></button></a>
+        </figure>
+        
+
+        <figure class="imglivro">    
+          <a href="deslivro5/index.html"><img class="livros" id="unica" src="imgs/livro5.jpg" alt="imagem"></a>
+          
+          <a href="deslivro5/index.html"><p><strong>R$33,90</strong></p></a>
+          <a href="deslivro5/index.html"><p>O menino do pijama listrado</p></a>
+          <a href="deslivro5/index.html"><button class="btn"><strong>Comprar</strong></button></a>
+        </figure>
+
+        <figure class="imglivro">  
+          <a href="deslivro6/index.html"><img class="livros" id="unica" src="imgs/livro6.jpg" alt="imagem"></a>
+         
+         
+          <a href="deslivro6/index.html"><p><strong>R$24,90</strong></p></a>
+          <a href="deslivro6/index.html"><p>A culpa é das estrelas</p></a>
+          <a href="deslivro6/index.html"><button class="btn"><strong>Comprar</strong></button></a>
+        </figure>
+        
+        <figure class="imglivro">
+          <a href="deslivro7/index.html"><img class="livros" id="tamanho" src="imgs/livro7.jpg" alt="imagem"></a>
+          
+          
+          <a href="deslivro7/index.html"><p><strong>R$27,90</strong></p></a>
+          <a href="deslivro7/index.html"><p>Admirável mundo novo</p></a>
+          <a href="deslivro7/index.html"><button class="btn"><strong>Comprar</strong></button></a>
+        </figure>
+
+        <figure class="imglivro">
+          <a href="deslivro8/index.html"><img class="livros" id="tamanho" src="imgs/livro8.jpg" alt="imagem"></a>
+         
+          
+          <a href="deslivro8/index.html"><p><strong>R$26,90</strong></p></a>
+          <a href="deslivro8/index.html"><p>Carta de amor aos mortos</p></a>
+          <a href="deslivro8/index.html"><button class="btn"><strong>Comprar</strong></button></a>
+        </figure>
+
+        <figure class="imglivro">
+          <a href="deslivro9/index.html"><img class="livros" id="tamanho" src="imgs/livro9.jpg" alt="imagem"></a>
+          
+          
+          <a href="deslivro9/index.html"><p><strong>R$45,90</strong></p></a>
+          <a href="deslivro9/index.html"><p>O mundo de Sofia</p></a>
+          <a href="deslivro9/index.html"><button class="btn"><strong>Comprar</strong></button></a>
+        </figure>
+
+        <figure class="imglivro">
+          <a href="deslivro10/index.html"><img class="livros" id="tamanho" src="imgs/livro10.jpg" alt="imagem"></a>
+          
+          
+          <a href="deslivro10/index.html"><p><strong>R$34,90</strong></p></a>
+          <a href="deslivro10/index.html"><p>A barraca do beijo</p></a>
+          <a href="deslivro10/index.html"><button class="btn"><strong>Comprar</strong></button></a>
+        </figure>
+
+        </div>       
+		
+
+        
+      <div id="rodape">
+	  
+        <div id="esquerda">
+          <h3 class="lorem-rodape">Lorem ipsum dolor</h3> 
+          <p class="parag-rodape">Sed ut perspiciatis unde<br>
+		  omnis iste natus error sit<br>
+		  voluptatem accusantium<br>
+		  doloremque laudantium,<br>
+		  totam rem aperiam, eaque<br> 
+		  ipsa quae ab illo inventore</p>
+        </div>
+        <div id="centro">
+          <h3 class="lorem-rodape">Lorem ipsum dolor</h3> 
+          <p class="parag-rodape">Sed ut perspiciatis unde<br>
+		  omnis iste natus error sit<br>
+		  voluptatem accusantium<br>
+		  doloremque laudantium,<br>
+		  totam rem aperiam, eaque<br> 
+		  ipsa quae ab illo inventore</p>
+        </div>
+        <div id="direita">
+          <h3 class="lorem-rodape">Lorem ipsum dolor</h3> 
+          <p class="parag-rodape">Sed ut perspiciatis unde<br>
+		  omnis iste natus error sit<br>
+		  voluptatem accusantium<br>
+		  doloremque laudantium,<br>
+		  totam rem aperiam, eaque<br> 
+		  ipsa quae ab illo inventore</p>
+        </div>
+        
+		
+        <div id="endereco">
+          <p id="p1">Endereço: Av. João Olímpio de Oliveira, 1561 - Vila Asem, Itapetininga - SP, 18202-000</p> 
+
+        </div>
+        <div id="icones">
+
+          <div id="instagram">
+            <a href="https://www.instagram.com/"
+               target="_blank"><img id="insta" src="imgs/instagram.jpg" style="margin-top: 1%"></a>
+
+          </div>
+          <div id="googleplus">
+            <a href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+               target="_blank"><center><img src="imgs/gplus.svg" style="margin-top: 15%"></center></a>
+
+          </div>
+          <div id="twitter">
+            <a href="https://twitter.com/login?lang=pt"
+               target="_blank">
+              <center><img src="imgs/twitter.svg" style="margin-top: 15%"></center></a>
+          </div>
+
+          <div id="facebook">
+            <a href="https://pt-br.facebook.com/"
+               target="_blank"> <center><img src="imgs/facebook.svg" style="margin-top: 15%"></center></a>
+          </div>
+
+       </div>
+	</div>
+	  
+	
+<!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+	</html>
+     

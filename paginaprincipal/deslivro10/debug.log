@@ -1,0 +1,16 @@
+[1124/124916.227:ERROR:process_info.cc(359)] UncheckedAllocate
+[1124/125445.028:ERROR:process_info.cc(359)] UncheckedAllocate
+[1124/125452.680:ERROR:process_info.cc(359)] UncheckedAllocate
+[1124/125452.928:ERROR:process_reader_win.cc(182)] ResumeThread: Parâmetro incorreto. (0x57)
+[1124/125452.928:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[1124/125452.928:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[1124/125452.928:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[1124/125452.928:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[1124/125452.928:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[1124/125452.928:ERROR:process_reader_win.cc(151)] SuspendThread: Acesso negado. (0x5)
+[1124/125453.069:ERROR:process_reader_win.cc(182)] ResumeThread: Parâmetro incorreto. (0x57)
+[1124/125453.069:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Tentou-se acessar um processo de saída. (0xc000010a)
+[1124/125453.178:ERROR:process_reader_win.cc(242)] ReadMemory at 0x81197f8000 of 32768 bytes failed: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
+[1124/125453.178:ERROR:crash_report_exception_handler.cc(111)] WriteEverything failed
+[1124/125453.178:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\anala\AppData\Local\Google\Chrome\User Data\Crashpad\reports\03a1ee5b-0b13-4ebc-bf61-bb4d6d9c8906.dmp: O arquivo já está sendo usado por outro processo. (0x20)
+[1124/125453.194:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Tentou-se acessar um processo de saída. (0xc000010a)
